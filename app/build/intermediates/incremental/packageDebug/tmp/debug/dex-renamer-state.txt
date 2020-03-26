@@ -1,0 +1,4 @@
+#Thu Mar 26 11:10:26 ICT 2020
+base.0=E\:\\_Data\\UGM\\Komsi smster 4\\PAPB2\\android-advanced-starter-apps-master\\android-advanced-starter-apps-master\\WalkMyAndroid-Starter\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
