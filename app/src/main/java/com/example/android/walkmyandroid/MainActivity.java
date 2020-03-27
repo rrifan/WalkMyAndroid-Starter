@@ -41,8 +41,6 @@ public class MainActivity extends AppCompatActivity implements FetchAddressTask.
     Button mLocationButton;
     TextView mLocationTextView;
     FusedLocationProviderClient mFusedLocationClient;
-
-    // Task 4 : Declare var
     ImageView mAndroidImageView;
     AnimatorSet mRotateAnim;
     private boolean mTrackingLocation;
@@ -54,8 +52,6 @@ public class MainActivity extends AppCompatActivity implements FetchAddressTask.
         setContentView(R.layout.activity_main);
         mLocationButton = findViewById(R.id.button_location);
         mLocationTextView = findViewById(R.id.textview_location);
-
-        // Task 4 : findView
         mAndroidImageView = (ImageView) findViewById(R.id.imageview_android);
         mRotateAnim = (AnimatorSet) AnimatorInflater.loadAnimator
                 (this, R.animator.rotate);
@@ -113,10 +109,6 @@ public class MainActivity extends AppCompatActivity implements FetchAddressTask.
         mLocationButton.setText(R.string.stop_tracking_location);
     }
 
-    /**
-     * Method that stops tracking the device. It removes the location
-     * updates, stops the animation and reset the UI.
-     */
     private void stopTrackingLocation() {
         if (mTrackingLocation) {
             mTrackingLocation = false;

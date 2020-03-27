@@ -46,7 +46,7 @@ public class FetchAddressTask extends AsyncTask<Location, Void, String> {
             }
             resultMessage = TextUtils.join("\n", addressParts);
         }
-        return resultMessage;
+        return resultMessage;git
     }
 
     @Override
